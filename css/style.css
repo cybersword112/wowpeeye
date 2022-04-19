@@ -1,0 +1,49 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 40em;
+  background-image: url("/img/Owen_wilson_\(15568460329\).jpg")
+}
+
+div{
+  background-color: rosybrown;
+  border: black 2px solid;
+  text-align: center;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+button{
+  align-self: center;
+  margin-bottom: 2%;
+  width: 30%;
+  color: white;
+  background-color: black;
+}
+video{
+  height: 60%;
+  width: auto;
+}
